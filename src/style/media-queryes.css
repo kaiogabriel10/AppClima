@@ -1,0 +1,35 @@
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    #opitions{
+        display: none;
+        padding: 20px;
+    
+        position: absolute;
+        left: 675px;
+        top: 87px;
+        width: 104px;
+        height: 50px;
+        background-color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    #opitions{
+        display: none;
+        padding: 20px;
+    
+        position: absolute;
+        left: 1221px;
+        top: 87px;
+        width: 104px;
+        height: 50px;
+        background-color: white;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+    }
+    
+}

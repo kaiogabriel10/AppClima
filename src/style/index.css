@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body,header,#button,#button:hover{ 
+    background-color: #1B365C;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid ;
+    padding: 20px;
+}
+header>p,nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header,nav{
+    color: white;
+}
+#menu:hover{
+    background-color: #7EA1C4;
+    border-radius: 200px;
+}
+#menu:hover,#button:hover{
+    transition: 0.5s;
+}
+#opitions{
+    display: none;
+    position: absolute;
+    left: 248px;
+    top: 87px;
+    background-color: white;
+    text-decoration: none;
+}
+
+h3#digite{
+    text-align: center;
+    padding: 10px;
+}
+
+div#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 50px 20px 50px;
+    color: #1B365C;
+    border: 1px solid #7EA1C4;
+}
+
+div#container,#city{
+   background-color: #7EA1C4; 
+}
+div#container,#button{
+    border-radius: 20px;
+}
+#city{ 
+    background-color: #cbd7e7;
+    border-bottom:1px solid #1B365C;
+    height: 20px;
+    padding:5px;
+}
+#city,#divisoria{
+    border-top: 1px solid #1B365C;
+}
+#button{
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    top: 6px;
+    left: 3px;
+    padding: 4px;
+}
+#divisoria{
+    margin: 10px;
+}
+#resposta{
+    font-size: 20px;
+}
+header,nav,#resposta{
+    font-family: 'Oswald', sans-serif;
+}
+
+#opitions,h3#digite,#bandeira,#nome{
+    font-family: 'Raleway', sans-serif;
+}
