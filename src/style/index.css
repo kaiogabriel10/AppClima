@@ -65,7 +65,7 @@ div#container,#button{
     height: 20px;
     padding:5px;
 }
-#city,#divisoria{
+#divisoria{
     border-top: 1px solid #1B365C;
 }
 #button{
